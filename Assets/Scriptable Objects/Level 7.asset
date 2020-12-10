@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a42cf9a7396c714bbcd9948af97cb3b, type: 3}
+  m_Name: Level 7
+  m_EditorClassIdentifier: 
+  Width: 7
+  height: 7
+  boardLayout:
+  - x: 3
+    y: 3
+    tileProperties: 4
+  - x: 3
+    y: 4
+    tileProperties: 4
+  - x: 3
+    y: 5
+    tileProperties: 5
+  - x: 3
+    y: 6
+    tileProperties: 5
+  - x: 4
+    y: 3
+    tileProperties: 6
+  - x: 4
+    y: 5
+    tileProperties: 6
+  - x: 4
+    y: 4
+    tileProperties: 3
+  - x: 4
+    y: 6
+    tileProperties: 3
+  pieces:
+  - {fileID: 6942211075920359949, guid: 12b221233165320488a8d2ca09ee9bcb, type: 3}
+  - {fileID: 4138253609467393374, guid: 1df7a6bf9107e3e4eaa4e7110c9f8d3d, type: 3}
+  - {fileID: 8794208543653228660, guid: 9c7512376b684bd47a844d3a3d77d4e4, type: 3}
+  - {fileID: 1461534102424522567, guid: b3b2bce6397ced44abbe1936b586a0aa, type: 3}
+  - {fileID: 254699514687155271, guid: a14999e466ffb5f4c8f4966f6772a1f2, type: 3}
+  - {fileID: 7631833335938733866, guid: 081076785d72f134e888f80c94eb1be4, type: 3}
+  floor: 6
+  scoreGoals: 64000000
+  levelGoals:
+  - numberNeeded: 2
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 81b4cadf93a8a2f41940f0a5f39e7138, type: 3}
+    matchValue: Ruby
+  - numberNeeded: 2
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: b377946b64e36804094b6466eea56670, type: 3}
+    matchValue: Emerald
+  - numberNeeded: 2
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 3a93b075c544bc94fa2733df92eeb55a, type: 3}
+    matchValue: Diamond
+  endGamerequirements:
+    gameType: 0
+    counterValue: 60
